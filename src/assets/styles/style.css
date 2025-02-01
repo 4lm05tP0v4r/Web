@@ -20,7 +20,7 @@
 }
 
 .breadcrumb li {
-    margin-right: 50px; /* Отступ между элементами */
+    margin-right: 40px; /* Отступ между элементами */
     position: relative; /* Для позиционирования псевдоэлементов */
 }
 
