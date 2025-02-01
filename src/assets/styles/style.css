@@ -40,9 +40,9 @@
     top: 50%; /* Центрируем по вертикали */
     transform: translateY(-50%); /* Корректируем для центрирования */
     width: 20px; /* Ширина полукруга */
-    height: 40px; /* Высота полукруга */
+    height: 46px; /* Высота полукруга */
     background-color: #000000; /* Цвет полукруга */
-    border-radius: 0px 20px 20px 0; /* Скругление для создания полукруга */
+    border-radius: 0px 23px 23px 0; /* Скругление для создания полукруга */
 }
 
 .breadcrumb li:last-child::after {
