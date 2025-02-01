@@ -37,6 +37,9 @@
     content: ')'; /* Разделитель */
     margin-left: 10px; /* Отступ перед разделителем */
     color: #000000;
+    top: 0;
+    font-size: 22;
+    line-height: 1;
 }
 
 .breadcrumb li:last-child::after {
