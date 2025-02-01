@@ -36,13 +36,13 @@
 .breadcrumb li::before {
     content: ''; /* Пустое содержимое для псевдоэлемента */
     position: absolute;
-    left: -15px; /* Позиция слева от элемента */
+    left: -20px; /* Позиция слева от элемента */
     top: 50%; /* Центрируем по вертикали */
     transform: translateY(-50%); /* Корректируем для центрирования */
     width: 20px; /* Ширина полукруга */
     height: 40px; /* Высота полукруга */
     background-color: transparent; /* Прозрачный фон */
-    border: 2px solid #ffffff; /* Белый ободок */
+    border-right: 2px solid #ffffff; /* Белый ободок */
     border-radius: 0px 20px 20px 0px; /* Скругление для создания полукруга */
 }
 
