@@ -42,7 +42,7 @@
     width: 20px; /* Ширина полукруга */
     height: 10px; /* Высота полукруга */
     background-color: #000000; /* Цвет полукруга */
-    border-radius: 10px 10px 0 0; /* Скругление для создания полукруга */
+    border-radius: 0px 10px 10px 0; /* Скругление для создания полукруга */
 }
 
 .breadcrumb li:last-child::after {
