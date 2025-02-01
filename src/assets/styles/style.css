@@ -14,7 +14,7 @@
     display: flex;
     list-style: none; /* Убираем маркеры списка */
     padding: 10px 0;
-    background: #ffffff; /* Цвет фона для хлебных крошек */
+    background: linear-gradient(#e3ecec, #3c8282); /* Цвет фона для хлебных крошек */
     border-radius: 5px; /* Скругление углов */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
 }
