@@ -17,11 +17,11 @@
     padding-top: 11px;
     padding-bottom: 11px;
     background: linear-gradient(#e3ecec, #3c8282); /* Цвет фона для хлебных крошек */
-
 }
 
 .breadcrumb li {
     margin-right: 10px; /* Отступ между элементами */
+    position: relative; /* Для позиционирования псевдоэлементов */
 }
 
 .breadcrumb li a {
@@ -35,14 +35,14 @@
 
 .breadcrumb li::after {
     content: ''; /* Пустое содержимое для псевдоэлемента */
-    
-    right: -15px; /* Позиция справа от элемента */
+    position: absolute;
+    right: -10px; /* Позиция справа от элемента */
     top: 50%; /* Центрируем по вертикали */
     transform: translateY(-50%); /* Корректируем для центрирования */
     width: 20px; /* Ширина полукруга */
     height: 10px; /* Высота полукруга */
     background-color: #000000; /* Цвет полукруга */
-    border-radius: 11px 11px 0 0; /* Скругление для создания полукруга */
+    border-radius: 10px 10px 0 0; /* Скругление для создания полукруга */
 }
 
 .breadcrumb li:last-child::after {
