@@ -45,7 +45,7 @@
     border-radius: 0px 20px 20px 0; /* Скругление для создания полукруга */
     background-color: transparent;
     border: 2px solid #000000;
-    border-radius: 0px 20px 20px 0;
+    border-radius: -20px 20px 20px -20px;
 }
 
 .breadcrumb li:last-child::after {
