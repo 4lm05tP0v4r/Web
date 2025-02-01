@@ -26,7 +26,7 @@
 
 .breadcrumb li a {
     text-decoration: none; /* Убираем подчеркивание */
-    color: #007bff; /* Цвет ссылки */
+    color: #000000; /* Цвет ссылки */
 }
 
 .breadcrumb li a:hover {
@@ -34,8 +34,13 @@
 }
 
 .breadcrumb li::after {
-    content: '/'; /* Разделитель */
-    margin-left: 10px; /* Отступ перед разделителем */
+    content: ')'; /* Скобка */
+    position: absolute;
+    right: -15px; /* Позиция справа от элемента */
+    top: 0; /* Начало элемента */
+    font-size: 30px; /* Размер шрифта для скобки */
+    line-height: 1; /* Высота строки */
+    color: #000000; /* Цвет скобки */
 }
 
 .breadcrumb li:last-child::after {
