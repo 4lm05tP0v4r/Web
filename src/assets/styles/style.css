@@ -46,7 +46,7 @@
     background-color: transparent;
     border-right: 2px solid #ffffff;
     border-radius: 0px 20px 20px 0px; /* Скругление для создания полукруга */
-    box-shadow: 2px 0px 1px #000000; /* Тень вправо */
+    box-shadow: 1px 0px 1px #000000; /* Тень вправо */
 }
 
 .breadcrumb li:last-child::after {
