@@ -10,3 +10,33 @@
     color: red !important;
 }
 
+.breadcrumb {
+    display: flex;
+    list-style: none; /* Убираем маркеры списка */
+    padding: 10px 0;
+    background: #ffffff; /* Цвет фона для хлебных крошек */
+    border-radius: 5px; /* Скругление углов */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+.breadcrumb li {
+    margin-right: 10px; /* Отступ между элементами */
+}
+
+.breadcrumb li a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #007bff; /* Цвет ссылки */
+}
+
+.breadcrumb li a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+.breadcrumb li::after {
+    content: '/'; /* Разделитель */
+    margin-left: 10px; /* Отступ перед разделителем */
+}
+
+.breadcrumb li:last-child::after {
+    content: ''; /* Убираем разделитель после последнего элемента */
+}
