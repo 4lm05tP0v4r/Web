@@ -34,13 +34,9 @@
 }
 
 .breadcrumb li::after {
-    content: ')'; /* Скобка */
-    position: absolute;
-    right: -15px; /* Позиция справа от элемента */
-    top: 0; /* Начало элемента */
-    font-size: 30px; /* Размер шрифта для скобки */
-    line-height: 1; /* Высота строки */
-    color: #000000; /* Цвет скобки */
+    content: ')'; /* Разделитель */
+    margin-left: 10px; /* Отступ перед разделителем */
+    color: #000000;
 }
 
 .breadcrumb li:last-child::after {
